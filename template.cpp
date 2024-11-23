@@ -26,6 +26,7 @@ using namespace std;
 #define FOR(i, n) for (int i = 0; i < (n); ++i)
 #define FORREV(i, n) for (int i = (n) - 1; i >= 0; --i)
 #define present(c,x) ((c).find(x) != (c).end())
+typedef priority_queue<int, vector<int>, greater<int>> minpq;
 constexpr int INF = 1 << 30, Mod = 1e9 + 7;
 constexpr ll LINF = 1LL << 62;
 int gcd(int a, int b){if(b == 0) {return a;}else {return gcd(b, a % b);}}
