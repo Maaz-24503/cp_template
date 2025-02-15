@@ -26,3 +26,7 @@ This repository contains a basic C++ template designed for competitive programmi
 
 4. **Ready-to-Use Solve Function:**
    - The `Solve()` function serves as a placeholder for your solution logic, easily adaptable to handle multiple test cases.
+
+## VS-Code Snippet
+
+Find the vs-code snippet in `snippet.json`
